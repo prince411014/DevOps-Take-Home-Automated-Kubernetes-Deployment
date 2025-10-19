@@ -1,10 +1,7 @@
 # DevOps-Take-Home-Automated-Kubernetes-Deployment
 automate the deployment of a simple web application to a Kubernetes cluster
 
-
-# DevOps Take-Home: Automated Kubernetes Deployment
-
-**Owner / Suggested GitHub username:** `prince411014`  
+**Owner / GitHub username:** `prince411014`  
 **Repository name:** `devops-takehome-automated-k8s-deployment`
 
 ## Overview
