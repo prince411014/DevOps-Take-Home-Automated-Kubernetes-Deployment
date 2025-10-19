@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: dockerhub_username/hello-k8s
+  tag: "latest"
+service:
+  type: LoadBalancer
+  port: 80
+ingress:
+  enabled: false
+  hosts: []
