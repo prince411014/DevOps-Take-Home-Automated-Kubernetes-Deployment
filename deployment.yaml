@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "hello-k8s.fullname" . }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "hello-k8s.name" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "hello-k8s.name" . }}
+    spec:
+      containers:
+      - name: {{ include "hello-k8s.name" . }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        ports:
+        - containerPort: 3000
