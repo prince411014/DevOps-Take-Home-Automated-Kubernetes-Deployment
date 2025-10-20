@@ -60,12 +60,6 @@ GitHub Account
 
 Steps
 
-Clone or fork this repository.
-
-git clone https://github.com/prince411014/devops-takehome-automated-k8s-deployment.git
-cd devops-takehome-automated-k8s-deployment
-
-
 Provision EKS using Terraform
 
 cd terraform
