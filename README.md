@@ -126,5 +126,5 @@ IaC	Terraform
 Orchestration	Kubernetes, Helm
 CI/CD	GitHub Actions
 Containerization	Docker
-Monitoring (optional)	Prometheus, Grafana
+Monitoring:	Prometheus, Grafana
 Languages	YAML, HCL, JavaScript (Node.js)
