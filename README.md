@@ -71,11 +71,6 @@ Configure AWS credentials before running.
 
 Configure GitHub Secrets
 
-Secret Name	Description
-DOCKERHUB_USERNAME	Your Docker Hub username
-DOCKERHUB_TOKEN	Docker Hub access token
-KUBE_CONFIG_DATA	Base64 encoded kubeconfig for your EKS cluster
-
 Trigger Deployment
 Push to main branch → GitHub Actions runs the pipeline → App deploys automatically.
 
