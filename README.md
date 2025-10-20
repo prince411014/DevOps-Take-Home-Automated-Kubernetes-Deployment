@@ -88,9 +88,6 @@ Defines Deployment, Service, and Ingress for scalability and load balancing.
 ✅ GitHub Actions CI/CD:
 Automated build, push, and deploy workflows triggered on each commit.
 
-✅ Optional Helm Chart:
-Reusable chart for templated Kubernetes deployment.
-
 🌍 Accessing the Application
 
 After deployment, find the public endpoint:
@@ -100,7 +97,7 @@ kubectl get svc -n default
 kubectl get ingress
 
 
-Visit the EXTERNAL-IP or DNS in your browser to see the “Hello, World” response.
+Visit the EXTERNAL-IP or DNS in browser to see the “Hello, World” response.
 
 👨‍💻 Author Declaration
 
