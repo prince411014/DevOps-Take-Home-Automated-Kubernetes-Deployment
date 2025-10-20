@@ -23,7 +23,7 @@ devops-takehome-automated-k8s-deployment/
 │   └── index.js
 ├── Dockerfile              # Multi-stage optimized image
 ├── k8s/                    # Kubernetes manifests (Deployment, Service, Ingress)
-├── helm/                   # Optional Helm chart (templated manifests)
+├── helm/                    #Templated manifests (Helpers, Deployment_Helm)
 ├── terraform/              # Terraform code to provision EKS
 │   ├── main.tf
 │   ├── variables.tf
